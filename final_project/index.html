@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTECHT Web App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="navBar">
+        <ul id="nav">
+            <li class="interactive" id="homeButton">
+                <a href="" class="headText"><img src="/images/ProTecht Logo notext.png"></a>
+            </li> 
+               
+            <li class="interactive" id="infoButton">
+                <a href="" class="headText">My Information</a>
+            </li>
+               
+            <li class="interactive" id="randomInfoButton">
+                <a href="" class="headText">Generate Random Information</a>
+            </li>
+                
+            <li class="interactive" id="storeDataButton">
+                <a href="" class="headText">Store New Information</a> <!--Link to database-->
+            </li>
+               
+            <li class="interactive" id="loginButton">
+                <a href="" class="headText">Login</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="homeScreen" class="screens"></div>
+    <div id="infoScreen" class="screens"></div>
+    <div id="randomScreen" class="screens">
+        <button id="randomInfoButton">Generate Random Information</button>
+    </div>
+    <div id="storeScreen" class="screens"></div>
+    <div id="loginScreen" class="screens">
+        <form id="login">
+            <p>Username: </p>
+            <input type="text" placeholder="Username" id="username">
+            <br><br>
+            <p>Password:</p>
+            <input type="password" placeholder="Password" id="password">
+            <br><br>
+            <button id="login-button">Submit</button>
+        </form>
+
+        <br>
+
+        making a submition button
+        <form id="sub">
+        <input type="text" placeholder="insert information type" id="???">
+
+        <button id="submit-button">Add task</button>
+        </form>
+        <ul id="todo-list">
+
+        </ul>
+    </div>    
+
+</body>
+</html>
