@@ -1,0 +1,99 @@
+#homePicture {
+    width: 50px;
+    border:5px solid  black;
+}
+#logo {
+    width: 250px;
+    transform: translateX(38vw);
+}
+#homeScreen {
+    display: flexbox;
+    flex-direction: row;
+}
+#greeting {
+    color: white;
+    text-indent: 45%;
+}
+.text {
+    color: blanchedalmond;
+}
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+body {
+    margin: 0;
+    background-color:black ;
+    border:20px solid blanchedalmond;
+    padding: 10px;
+}
+#navBar {
+    text-decoration: none;
+    position: sticky;
+    display: flex;
+    justify-content: center;  
+}
+#nav {
+
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.headText {
+    color: white;
+}
+#infoButton {
+    text-decoration: white;
+    background-color: black;
+    color:white;
+    border:5px solid black;
+}
+#randomInfoButton {
+    background-color:black;
+    color:white;
+    border:5px solid  black;
+}
+#generator {
+    display: flex;
+   justify-content: center;
+}
+#storeDataButton {
+    background-color: black;
+    color: white;
+    border:5px solid  black;
+}
+#loginButton {
+    background-color: black;
+    color:white;
+    border:5px solid  black
+}
+#sub {
+    display: none;
+}
+#sign {
+    display: none;
+}
+.screens {
+    display: none;
+}
+#infoStorer {
+    display: none;
+}
+p{
+    color: white;
+    font-size: 15px;
+}
+h1{
+    color: white;
+}
+.otherButton {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#someButtons {
+    display: none;
+}
+.interactive{
+    font-size: 20px;
+}

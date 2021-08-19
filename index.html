@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROTECHT Web App</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.9.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-auth.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyD7Pln1pJIC3oeyU6WqI1Z1Imf0nGMCCkc",
+    authDomain: "protechtproject.firebaseapp.com",
+    projectId: "protechtproject",
+    storageBucket: "protechtproject.appspot.com",
+    messagingSenderId: "106003315716",
+    appId: "1:106003315716:web:99c2df0b6d1a3cb90e4951",
+    measurementId: "G-ZX3SG7WHZ1"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="navBar">
+        <ul id="nav">
+            <li class="interactive" id="homeButton">
+                <a href="" class="headText"><img id="homePicture" src="/images/ProTecht Logo notext.png"></a>
+            </li>                
+            <li class="interactive" id="infoButton">
+                <a href="" class="headText">About Us</a>
+            </li>
+            <li class="interactive" id="randomInfoButton">
+                <a href="" class="headText">Generate Random Information</a>
+            </li>
+            <li class="interactive" id="storeDataButton">
+                <a href="" class="headText">Store New Information</a> <!--Link to database-->
+            </li>
+            <li class="interactive" id="loginButton">
+                <a href="" class="headText">Login</a>
+            </li>
+        </ul>
+    </div>
+    <div id="homeScreen">
+        <h1 id="greeting">Welcome</h1>
+        <img id="logo" src="/images/ProTecht Logo.png" >
+    </div>
+    <div id="infoScreen" class="screens">
+        <!--site Description-->
+        <h1 class="text">What is ProTecht</h1>
+        <h2 class="text">PROTECHT is an all in one that safeguards your identity both online and in society while helping to protect things like your credit card and your personal information, we are here to make both your virtual and real life safer.</h2>
+        <h2></h2>
+    </div>
+    <div id="randomScreen" class="screens">
+        <div id="generator">
+            <button id="randomButton">Generate Random Information</button>
+            <div id="randomCollection">
+            </div>                           
+        </div>
+        <div id="someButtons">
+            <button class="otherButton" id="saveButton">Save Info</button>
+            <br>
+            <button class="otherButton" id="newButton">New Info</button>
+        </div>  
+    </div>
+    <div id="storeScreen" class="screens">
+        <form id="InfoStorer">
+            <p>Username: </p>
+            <input type="text" placeholder="First Name" id="namer">
+            <br><br>
+            <p>Socail Security:</p>
+            <input type="password" placeholder="Socail Security" id="socailer">
+            <br><br>
+            <p>IP Adress:</p>
+            <input type="password" placeholder="IP Adress" id="IPaddreser">
+            <br><br>
+            <button id="submiter-button">Submit</button>
+        </form>
+    </div>
+    <div id="loginScreen" class="screens">
+        <form id="login">
+            <p>Username: </p>
+            <input type="text" placeholder="Username" id="username">
+            <br><br>
+            <p>Password:</p>
+            <input type="password" placeholder="Password" id="password">
+            <br><br>
+            <button id="login-button">Submit</button>
+        </form>
+        <form id="sub">
+            <input type="text" placeholder="insert information type" id="randGen">
+            <button id="submit-button">Add task</button>        
+        </form>
+    </div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
